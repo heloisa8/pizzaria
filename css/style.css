@@ -1,0 +1,121 @@
+
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.cabeçalho{
+background-color: red;
+display: flex;
+justify-content: space-between;
+padding-left: 20px;
+padding-right: 20px;
+}
+.cabeçalho > img{
+    height: 60px;
+}
+.menu{
+    display: flex;
+}
+.menu > li{
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.menu > li:hover{
+    background-color: darkred;
+}
+.menu > li > a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black ;
+    padding-left: 10px ;
+    padding-right: 10px ;
+    font-weight: 600;
+}
+.foto{
+   background-image: url(../img/pizza.jpg);
+   height: 400px;
+   background-size: cover;
+   background-position: top center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   box-shadow: 0px 3px 10px darkgreen ;
+}
+.foto > h1{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom:30px ;
+}
+.botao{
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.botao:hover{
+    background-color: white;
+}
+h2{
+    text-align: center;
+    color: green;
+}
+hr{
+    background: linear-gradient(to right, red, yellow);
+    height: 3px;
+    margin: 3px;
+    margin-top: 3px;
+    border: 0
+    
+}
+h3{
+    color: black;
+    text-align: center;
+}
+.main{
+    max-width: 1500px;
+}
+.sabores{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.imagem-1{
+    margin: 10px;
+    margin-bottom: 0;
+    border-radius: 20px 20px 0 0
+    
+}
+.sabor-1{
+text-align: center;
+padding: 3px;
+background-color: green;
+margin: 10px;
+box-shadow: 3px 3px 3px green;
+min-width: 250px;
+padding: 10px;
+}
+.preço{
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.promoçoes{
+    display: flex;
+    overflow: scroll;
+}
+media{
+    max-width: 600px;
+}
+
+
+
+
+
+
